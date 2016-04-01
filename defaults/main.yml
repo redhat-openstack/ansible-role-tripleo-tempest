@@ -1,5 +1,10 @@
 ---
 # defaults file for ansible-role-tripleo-tempest
+working_dir: /home/stack
+tempest_setup_script: tempest-setup.j2
+tempest_configure_log: "{{ working_dir }}/tempest_configure.log"
+tempest_log: "{{ working_dir }}/tempest.log"
+
 floating_ip_cidr: "{{ undercloud_network_cidr|default('192.0.2.0/24') }}"
 floating_ip_start: "{{ floating_ip_cidr|nthhost(100) }}"
 floating_ip_end: "{{ floating_ip_cidr|nthhost(120) }}"
