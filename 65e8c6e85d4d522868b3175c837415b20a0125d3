@@ -1,0 +1,7 @@
+Code-Review+2: wes hayutin <weshayutin@gmail.com>
+Verified+1: wes hayutin <weshayutin@gmail.com>
+Submitted-by: wes hayutin <weshayutin@gmail.com>
+Submitted-at: Fri, 01 Apr 2016 17:13:51 -0400
+Reviewed-on: https://review.gerrithub.io/271180
+Project: redhat-openstack/ansible-role-tripleo-tempest
+Branch: refs/heads/master
