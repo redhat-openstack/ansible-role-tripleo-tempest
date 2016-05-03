@@ -1,7 +1,7 @@
 #
 # configure-tempest
 #
-
+{% if tempest_overcloud %}
 source {{ working_dir }}/overcloudrc
 
 # clean up network if it exists from previous run
@@ -19,6 +19,10 @@ neutron subnet-create --name ext-subnet \
     --disable-dhcp \
     --gateway {{ external_network_gateway }} \
     nova {{ floating_ip_cidr }}
+{% else %}
+    source {{ working_dir }}/stackrc
+	public_net_id=$(neutron net-show {{ undercloud_public_net_name }} -f value -c id)
+{% endif %}
 
 rm -rf {{ working_dir }}/tempest
 mkdir {{ working_dir }}/tempest
