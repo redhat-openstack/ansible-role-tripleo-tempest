@@ -1,0 +1,7 @@
+Verified+1: mathieu bultel <mat.bultel@gmail.com>
+Code-Review+2: mathieu bultel <mat.bultel@gmail.com>
+Submitted-by: mathieu bultel <mat.bultel@gmail.com>
+Submitted-at: Wed, 04 May 2016 05:06:07 -0400
+Reviewed-on: https://review.gerrithub.io/275178
+Project: redhat-openstack/ansible-role-tripleo-tempest
+Branch: refs/heads/master
