@@ -11,7 +11,15 @@ Any pre-requisites that may not be covered by Ansible itself or the role should 
 Role Variables
 --------------
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+* `tempest_undercloud`: false/true - whether to run tempest on installed undercloud
+* `tempest_overcloud`: false/true - whether to run tempest on installed overcloud
+* `tempest_source`: rdo/upstream - Where to take tempest sources from - RDO package or upstream git repo
+* `tempest_format`: venv/packages - Which tempest installation to use - either install python virtual environment
+                    with installed there python modules from requirements file, or to use installed with RDO RPM packages
+* `tempest_log_file` - name of log file for tempest run
+* `test_regex` - tests regular expression for testr run, i.e. ".*smoke" 
+* `run_tempest`: false/true - to run tempest or not
+
 
 Dependencies
 ------------
@@ -23,9 +31,12 @@ Example Playbook
 
 Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
-    - hosts: servers
+    ---
+    - name:  Run tempest
+      hosts: undercloud
+      gather_facts: no
       roles:
-         - { role: username.rolename, x: 42 }
+        - tripleo-tempest
 
 License
 -------
