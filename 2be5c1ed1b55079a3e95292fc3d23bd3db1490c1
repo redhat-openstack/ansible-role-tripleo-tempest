@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_037193e0",
+        "filename": "README.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-06-16T13:58:59Z",
+      "side": 1,
+      "message": "ansible-role-tripleo-tempest",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 9
+      },
+      "revId": "2be5c1ed1b55079a3e95292fc3d23bd3db1490c1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_a380a78c",
+        "filename": "README.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-06-16T13:58:59Z",
+      "side": 1,
+      "message": "Please add a short description and requirements.",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 229
+      },
+      "revId": "2be5c1ed1b55079a3e95292fc3d23bd3db1490c1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_837da3b3",
+        "filename": "README.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-06-16T13:58:59Z",
+      "side": 1,
+      "message": "Fill it out please, if we have any.",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 12
+      },
+      "revId": "2be5c1ed1b55079a3e95292fc3d23bd3db1490c1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_63497f8e",
+        "filename": "README.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-06-16T13:58:59Z",
+      "side": 1,
+      "message": "This should be actually Apache, also make sure the attached LICENSE is Apache. You can copy it from another repo.",
+      "range": {
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 3
+      },
+      "revId": "2be5c1ed1b55079a3e95292fc3d23bd3db1490c1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_e35d8f49",
+        "filename": "README.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-06-16T13:58:59Z",
+      "side": 1,
+      "message": "\"RDO CI Team\" is what we use in other repos.",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 108
+      },
+      "revId": "2be5c1ed1b55079a3e95292fc3d23bd3db1490c1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
