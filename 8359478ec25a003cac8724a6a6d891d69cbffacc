@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "baa041b7_4399db1e",
+        "filename": "defaults/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1002450
+      },
+      "writtenOn": "2016-06-16T13:47:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_c3cdeb5e",
+      "range": {
+        "startLine": 26,
+        "startChar": 22,
+        "endLine": 26,
+        "endChar": 37
+      },
+      "revId": "8359478ec25a003cac8724a6a6d891d69cbffacc",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa041b7_a3dae715",
         "filename": "playbooks/tempest.yml",
         "patchSetId": 3
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "baa041b7_239ed707",
+        "filename": "playbooks/tempest.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1002450
+      },
+      "writtenOn": "2016-06-16T13:47:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_a3dae715",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 33
+      },
+      "revId": "8359478ec25a003cac8724a6a6d891d69cbffacc",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa041b7_0302b36f",
         "filename": "setup.cfg",
         "patchSetId": 3
@@ -59,6 +107,30 @@
       "writtenOn": "2016-06-16T12:58:43Z",
       "side": 1,
       "message": "Add\n\n    playbooks \u003d playbooks/*\n\nhere to install your playbook to be used with quickstart.\n\nhttps://github.com/redhat-openstack/ansible-role-tripleo-collect-logs/blob/master/setup.cfg#L23-L24",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 10
+      },
+      "revId": "8359478ec25a003cac8724a6a6d891d69cbffacc",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_03a3d350",
+        "filename": "setup.cfg",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1002450
+      },
+      "writtenOn": "2016-06-16T13:47:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_0302b36f",
       "range": {
         "startLine": 22,
         "startChar": 0,
@@ -110,6 +182,54 @@
         "startChar": 4,
         "endLine": 23,
         "endChar": 48
+      },
+      "revId": "8359478ec25a003cac8724a6a6d891d69cbffacc",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_c385ebad",
+        "filename": "setup.cfg",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1002450
+      },
+      "writtenOn": "2016-06-16T13:47:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_6303bf77",
+      "range": {
+        "startLine": 23,
+        "startChar": 4,
+        "endLine": 23,
+        "endChar": 48
+      },
+      "revId": "8359478ec25a003cac8724a6a6d891d69cbffacc",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_e388efc8",
+        "filename": "setup.cfg",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1002450
+      },
+      "writtenOn": "2016-06-16T13:47:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_4308bb91",
+      "range": {
+        "startLine": 23,
+        "startChar": 60,
+        "endLine": 23,
+        "endChar": 92
       },
       "revId": "8359478ec25a003cac8724a6a6d891d69cbffacc",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
