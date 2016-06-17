@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_a52b0833",
+        "filename": "README.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-06-17T11:04:09Z",
+      "side": 1,
+      "message": "trailing whitespace",
+      "range": {
+        "startLine": 9,
+        "startChar": 88,
+        "endLine": 9,
+        "endChar": 89
+      },
+      "revId": "5db70d118310d09c0d8474a7cac1ef7c522c2320",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_853004a0",
+        "filename": "README.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-06-17T11:04:09Z",
+      "side": 1,
+      "message": "trailing whitespace",
+      "range": {
+        "startLine": 21,
+        "startChar": 71,
+        "endLine": 21,
+        "endChar": 72
+      },
+      "revId": "5db70d118310d09c0d8474a7cac1ef7c522c2320",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_c5ff2ca9",
+        "filename": "tasks/post-tempest.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-06-17T11:04:09Z",
+      "side": 1,
+      "message": "If I\u0027m already nitpicking, you\u0027re capitalizing this a few lines below, let\u0027s keep it consistent.",
+      "range": {
+        "startLine": 14,
+        "startChar": 17,
+        "endLine": 14,
+        "endChar": 21
+      },
+      "revId": "5db70d118310d09c0d8474a7cac1ef7c522c2320",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_e50230b4",
+        "filename": "tasks/post-tempest.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-06-17T11:04:09Z",
+      "side": 1,
+      "message": "I\u0027d recommend using \"\u003e\" instead. Ansible outputs a copyable command that way, and you don\u0027t have to do backslashes. Don\u0027t forget the semicolons though at the end of the commands!",
+      "range": {
+        "startLine": 15,
+        "startChar": 9,
+        "endLine": 15,
+        "endChar": 10
+      },
+      "revId": "5db70d118310d09c0d8474a7cac1ef7c522c2320",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
