@@ -1,0 +1,8 @@
+Code-Review+2: Attila Darazs <adarazs@redhat.com>
+Code-Review+1: wes hayutin <weshayutin@gmail.com>
+Verified+1: <openstack-ci-service+rdo-ci-centos@redhat.com>
+Submitted-by: wes hayutin <weshayutin@gmail.com>
+Submitted-at: Tue, 21 Jun 2016 14:04:16 -0400
+Reviewed-on: https://review.gerrithub.io/280451
+Project: redhat-openstack/ansible-role-tripleo-tempest
+Branch: refs/heads/master
