@@ -1,0 +1,7 @@
+Verified+1: <openstack-ci-service+rdo-ci-centos@redhat.com>
+Code-Review+2: John Trowbridge <trown@redhat.com>
+Submitted-by: John Trowbridge <trown@redhat.com>
+Submitted-at: Wed, 28 Sep 2016 08:59:18 -0400
+Reviewed-on: https://review.gerrithub.io/295690
+Project: redhat-openstack/ansible-role-tripleo-tempest
+Branch: refs/heads/master
