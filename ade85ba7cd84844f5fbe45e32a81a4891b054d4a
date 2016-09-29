@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_8b954733",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-09-29T13:35:35Z",
+      "side": 1,
+      "message": "There should be a space after :",
+      "range": {
+        "startLine": 23,
+        "startChar": 85,
+        "endLine": 23,
+        "endChar": 86
+      },
+      "revId": "ade85ba7cd84844f5fbe45e32a81a4891b054d4a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_eb985377",
+        "filename": "templates/configure-tempest.sh.j2",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-09-29T13:35:35Z",
+      "side": 1,
+      "message": "Does this have to be a one-liner? It\u0027s quite hard to see and review the changes this way.",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 3
+      },
+      "revId": "ade85ba7cd84844f5fbe45e32a81a4891b054d4a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_8b7e6719",
+        "filename": "templates/run-tempest.sh.j2",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-09-29T13:35:35Z",
+      "side": 1,
+      "message": "Please add \"|bool\" if testing truth or false because of the the command line --extra-vars evaluation of true/false (or rather the lack of it).",
+      "range": {
+        "startLine": 5,
+        "startChar": 6,
+        "endLine": 5,
+        "endChar": 22
+      },
+      "revId": "ade85ba7cd84844f5fbe45e32a81a4891b054d4a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_6b832304",
+        "filename": "templates/run-tempest.sh.j2",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-09-29T13:35:35Z",
+      "side": 1,
+      "message": "|bool",
+      "range": {
+        "startLine": 7,
+        "startChar": 6,
+        "endLine": 7,
+        "endChar": 27
+      },
+      "revId": "ade85ba7cd84844f5fbe45e32a81a4891b054d4a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_4b7dff1a",
+        "filename": "templates/run-tempest.sh.j2",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-09-29T13:35:35Z",
+      "side": 1,
+      "message": "|bool",
+      "range": {
+        "startLine": 8,
+        "startChar": 6,
+        "endLine": 8,
+        "endChar": 21
+      },
+      "revId": "ade85ba7cd84844f5fbe45e32a81a4891b054d4a",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
