@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_ab7ecbe1",
+        "filename": "templates/configure-tempest.sh.j2",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-09-29T14:01:52Z",
+      "side": 1,
+      "message": "So, this is not extremely important, as we probably run this with bash, but to be a stickler, please use \"|| true\", for details while, read this:\n\nhttp://stackoverflow.com/questions/3224878/what-is-the-purpose-of-the-colon-gnu-bash-builtin/3224910#3224910\n\nAlso the \";\" at the end is unnecessary and makes it look confusing. :)",
+      "range": {
+        "startLine": 14,
+        "startChar": 53,
+        "endLine": 14,
+        "endChar": 56
+      },
+      "revId": "6ab892713ef7efc50aad4a436f01601fec00171f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_8b7f87de",
+        "filename": "templates/configure-tempest.sh.j2",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-09-29T14:01:52Z",
+      "side": 1,
+      "message": "No need for \";\" here.",
+      "range": {
+        "startLine": 15,
+        "startChar": 8,
+        "endLine": 15,
+        "endChar": 9
+      },
+      "revId": "6ab892713ef7efc50aad4a436f01601fec00171f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_cb60ef37",
+        "filename": "templates/run-tempest.sh.j2",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-09-29T14:01:52Z",
+      "side": 1,
+      "message": "I agree with trown, if you\u0027re modifying this line anyway, break this into separate lines like the rest that follows please.",
+      "range": {
+        "startLine": 3,
+        "startChar": 3,
+        "endLine": 3,
+        "endChar": 6
+      },
+      "revId": "6ab892713ef7efc50aad4a436f01601fec00171f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
