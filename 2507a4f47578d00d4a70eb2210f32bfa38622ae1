@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_abbb6bc3",
+        "filename": "templates/configure-tempest.sh.j2",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2016-09-29T13:39:47Z",
+      "side": 1,
+      "message": "I know it is not part of this patch, but maybe we could split this double nested loop on multiple lines? Pretty odd to use semicolons to purposefully keep this all on one huge line.",
+      "revId": "2507a4f47578d00d4a70eb2210f32bfa38622ae1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_2bc87b54",
+        "filename": "templates/run-tempest.sh.j2",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2016-09-29T13:39:47Z",
+      "side": 1,
+      "message": "we need some \u0027\\\u0027 to continue this command over multiple lines. might as well chop up the first line while we are here to make this more readable as well.",
+      "revId": "2507a4f47578d00d4a70eb2210f32bfa38622ae1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
