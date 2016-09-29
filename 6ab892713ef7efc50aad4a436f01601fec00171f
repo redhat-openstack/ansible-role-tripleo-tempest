@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "baa041b7_0b9017ec",
+        "filename": "templates/configure-tempest.sh.j2",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1002450
+      },
+      "writtenOn": "2016-09-29T14:41:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_ab7ecbe1",
+      "range": {
+        "startLine": 14,
+        "startChar": 53,
+        "endLine": 14,
+        "endChar": 56
+      },
+      "revId": "6ab892713ef7efc50aad4a436f01601fec00171f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa041b7_8b7f87de",
         "filename": "templates/configure-tempest.sh.j2",
         "patchSetId": 4
@@ -36,6 +60,30 @@
       "writtenOn": "2016-09-29T14:01:52Z",
       "side": 1,
       "message": "No need for \";\" here.",
+      "range": {
+        "startLine": 15,
+        "startChar": 8,
+        "endLine": 15,
+        "endChar": 9
+      },
+      "revId": "6ab892713ef7efc50aad4a436f01601fec00171f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_eb8cd3d8",
+        "filename": "templates/configure-tempest.sh.j2",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1002450
+      },
+      "writtenOn": "2016-09-29T14:41:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_8b7f87de",
       "range": {
         "startLine": 15,
         "startChar": 8,
@@ -83,6 +131,54 @@
       "side": 1,
       "message": "we also still need \u0027\\\u0027 at the end of each of these lines or we will get a bunch of \"--foo\u003dbar command not found\".",
       "parentUuid": "baa041b7_cb60ef37",
+      "range": {
+        "startLine": 3,
+        "startChar": 3,
+        "endLine": 3,
+        "endChar": 6
+      },
+      "revId": "6ab892713ef7efc50aad4a436f01601fec00171f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_2b875bb6",
+        "filename": "templates/run-tempest.sh.j2",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1002450
+      },
+      "writtenOn": "2016-09-29T14:41:32Z",
+      "side": 1,
+      "message": "Then I\u0027ll need to use \"\\\", so I\u0027d like to leave it as is, it\u0027s not so extremely long :)",
+      "parentUuid": "baa041b7_cb60ef37",
+      "range": {
+        "startLine": 3,
+        "startChar": 3,
+        "endLine": 3,
+        "endChar": 6
+      },
+      "revId": "6ab892713ef7efc50aad4a436f01601fec00171f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_eb517331",
+        "filename": "templates/run-tempest.sh.j2",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1002450
+      },
+      "writtenOn": "2016-09-29T14:41:32Z",
+      "side": 1,
+      "message": "discussed in IRC",
+      "parentUuid": "baa041b7_8b9b0717",
       "range": {
         "startLine": 3,
         "startChar": 3,
