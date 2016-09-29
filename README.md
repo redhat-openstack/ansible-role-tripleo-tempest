@@ -20,7 +20,11 @@ Role Variables
 * `tempest_log_file` - name of log file for tempest run
 * `test_regex` - tests regular expression for testr run, i.e. ".*smoke"
 * `run_tempest`: false/true - to run tempest or not
-
+* `tempest_workers`: int - how many parallel workers to run (default is number of cores) 
+* `tempest_isolated`: false/true - if to run every test id in separate test runner (default is false)
+* `tempest_tests_file`: path to file - path to file with tests to run
+* `tempest_until_failure`: false/true - default is false, repeat the run again and again until failure occurs
+* `tempest_failing`: false/true - default is false, run only tests known to be failing
 
 Dependencies
 ------------
