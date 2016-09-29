@@ -68,6 +68,30 @@
       "revId": "6ab892713ef7efc50aad4a436f01601fec00171f",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_8b9b0717",
+        "filename": "templates/run-tempest.sh.j2",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2016-09-29T14:15:02Z",
+      "side": 1,
+      "message": "we also still need \u0027\\\u0027 at the end of each of these lines or we will get a bunch of \"--foo\u003dbar command not found\".",
+      "parentUuid": "baa041b7_cb60ef37",
+      "range": {
+        "startLine": 3,
+        "startChar": 3,
+        "endLine": 3,
+        "endChar": 6
+      },
+      "revId": "6ab892713ef7efc50aad4a436f01601fec00171f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
