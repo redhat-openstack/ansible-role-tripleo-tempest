@@ -51,6 +51,8 @@ git clone https://github.com/redhat-openstack/tempest {{ working_dir }}/tempest
 cd {{ working_dir }}/tempest
 virtualenv --no-site-packages .venv
 ./tools/with_venv.sh pip install -U pip setuptools
+# TODO(sshnaidm): remove pinning of pycparser when issue is solved: https://github.com/eliben/pycparser/issues/147
+echo 'pycparser==2.13' >> requirements.txt
 ./tools/with_venv.sh pip install junitxml httplib2 -r test-requirements.txt -r requirements.txt
 {% endif %}
 
