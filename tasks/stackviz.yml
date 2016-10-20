@@ -1,0 +1,46 @@
+---
+- name: Install nodejs package
+  yum:
+    name: nodejs
+    state: present
+  become: true
+
+- name: Install tox with easy_install
+  easy_install: name=tox state=latest
+  become: true
+
+- name: Cloning stackviz from github
+  git: repo=https://github.com/openstack/stackviz.git dest="{{ working_dir }}/stackviz"
+
+- name: Install gulp globally
+  shell: npm install -g gulp
+  become: true
+
+- name: Run npm on stackviz directory
+  shell: npm install
+  args:
+      chdir: "{{ working_dir }}/stackviz"
+
+- name: Run gulp prod
+  shell: gulp prod
+  args:
+      chdir: "{{ working_dir }}/stackviz"
+
+- name: Create data dir on stackviz/build directory
+  file: path="{{ working_dir }}/stackviz/build/data" state=directory
+
+- name: Check if dstats file exists
+  stat: path=/var/log/extra/dstat-csv.log
+  register: dstat_result
+
+- name: Set dstat fact
+  set_fact:
+      dstat_opt: '--dstat /var/log/extra/dstat-csv.log'
+  when: dstat_result.stat.exists
+
+- name: Collecting data from tempest
+  shell: |
+    source {{ working_dir }}/stackviz/.tox/py27/bin/activate
+    testr last --subunit | stackviz-export {{ dstat_opt | default(omit) }} --env --stdin {{ working_dir }}/stackviz/build/data
+  args:
+      chdir: "{{ working_dir }}/tempest"
