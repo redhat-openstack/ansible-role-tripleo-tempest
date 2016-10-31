@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_1ba34cb3",
+        "filename": "tasks/stackviz.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000586
+      },
+      "writtenOn": "2016-10-31T14:10:48Z",
+      "side": 1,
+      "message": "2 things.. \n1. let\u0027s add the src in the image build process so that not all jobs need to reclone.\n2. use git.openstack.org vs. github if possible.",
+      "revId": "b10c390232ec428438a4fa3d6f5620d137ce696d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_9b8f5c2e",
+        "filename": "tasks/stackviz.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1000586
+      },
+      "writtenOn": "2016-10-31T14:10:48Z",
+      "side": 1,
+      "message": "this is cool.. so stackwiz can display the perf metrics? Please see @myoung as he also had a tool for this. One is better than two though.",
+      "revId": "b10c390232ec428438a4fa3d6f5620d137ce696d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
