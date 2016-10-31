@@ -19,6 +19,23 @@
     },
     {
       "key": {
+        "uuid": "baa041b7_1b8a2c1b",
+        "filename": "tasks/stackviz.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-10-31T14:12:01Z",
+      "side": 1,
+      "message": "Do we want to use the npm module[1] for this and the following tasks?\n\n[1] - http://docs.ansible.com/ansible/npm_module.html",
+      "revId": "b10c390232ec428438a4fa3d6f5620d137ce696d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa041b7_9b8f5c2e",
         "filename": "tasks/stackviz.yml",
         "patchSetId": 1
