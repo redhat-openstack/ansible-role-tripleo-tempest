@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "baa041b7_7ba7f850",
+        "filename": "tasks/stackviz.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1002379
+      },
+      "writtenOn": "2016-10-31T15:14:44Z",
+      "side": 1,
+      "message": "The problem is npm is an extra module in ansible, and if you take a look at http://docs.ansible.com/ansible/modules_extra.html you will see: \u0027These modules are currently shipped with Ansible, but might be shipped separately in the future\u0027",
+      "parentUuid": "baa041b7_1b8a2c1b",
+      "revId": "b10c390232ec428438a4fa3d6f5620d137ce696d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa041b7_9b8f5c2e",
         "filename": "tasks/stackviz.yml",
         "patchSetId": 1
