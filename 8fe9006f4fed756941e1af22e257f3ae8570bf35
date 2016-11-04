@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_e58d907d",
+        "filename": "tasks/stackviz.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1007211
+      },
+      "writtenOn": "2016-11-04T15:42:27Z",
+      "side": 1,
+      "message": "consider scoping this fact (e.g. tempest_dstat_opt || stackviz_dstat_opt, etc), for clarity.",
+      "range": {
+        "startLine": 20,
+        "startChar": 6,
+        "endLine": 20,
+        "endChar": 15
+      },
+      "revId": "8fe9006f4fed756941e1af22e257f3ae8570bf35",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
