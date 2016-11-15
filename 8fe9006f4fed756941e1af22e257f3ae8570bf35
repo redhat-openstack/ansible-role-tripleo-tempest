@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "baa041b7_edc78b0f",
+        "filename": "tasks/stackviz.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1002379
+      },
+      "writtenOn": "2016-11-15T13:25:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_6efdb807",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 14
+      },
+      "revId": "8fe9006f4fed756941e1af22e257f3ae8570bf35",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa041b7_e58d907d",
         "filename": "tasks/stackviz.yml",
         "patchSetId": 2
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "baa041b7_0dc50f09",
+        "filename": "tasks/stackviz.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1002379
+      },
+      "writtenOn": "2016-11-15T13:25:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_e58d907d",
+      "range": {
+        "startLine": 20,
+        "startChar": 6,
+        "endLine": 20,
+        "endChar": 15
+      },
+      "revId": "8fe9006f4fed756941e1af22e257f3ae8570bf35",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa041b7_f30acf26",
         "filename": "tasks/stackviz.yml",
         "patchSetId": 2
@@ -59,6 +107,30 @@
       "writtenOn": "2016-11-14T16:19:03Z",
       "side": 1,
       "message": "I recommend using \"\u003e\": https://gist.github.com/adarazs/5836e388f5bd26ac644646e3bf0b633a",
+      "range": {
+        "startLine": 24,
+        "startChar": 9,
+        "endLine": 24,
+        "endChar": 10
+      },
+      "revId": "8fe9006f4fed756941e1af22e257f3ae8570bf35",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_cdce072d",
+        "filename": "tasks/stackviz.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1002379
+      },
+      "writtenOn": "2016-11-15T13:25:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_f30acf26",
       "range": {
         "startLine": 24,
         "startChar": 9,
